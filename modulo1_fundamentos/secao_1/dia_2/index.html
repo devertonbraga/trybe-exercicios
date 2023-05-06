@@ -4,19 +4,52 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
-        h1 {font-size: 65px; color: orange;
+        h1 {
+          font-size: 65px; color: orange; 
+          font-family: sans-serif;
+           }
+        p { 
+          font-weight: 600;
+          line-height: 3em;
+        }   
+        body {
+          font-size: 16px;
         }
-        #corLista {background-color: blue;}
-        .corFundo { background-color: aqua;}
+        #corLista {
+          background-color: blue;
+          color: white;
+          font-style: italic;
+          line-height: 40px;
+          text-align: left;
+                    
+        }
+        .corFundo {
+          background-color: aqua;
+          font-style: italic;
+          line-height: 40px;
+          text-align: left;
+          text-decoration: underline;
+          color: red;
+        }
+        #maça {
+          background-color: red;
+        }
+        #banana {
+          background-color: yellow;
+          color: black;
+        }
+        #goiaba { 
+          background-color: green;
+        }
     </style>
   </head>
   <body>
     <h1>Frutas</h1>
     <p class="corFundo">Qual é a sua fruta favorita?</p>
-    <ul id = corLista; class="corFundo"> 
-      <li>Maçã</li>
-      <li>Banana</li>
-      <li>Goiaba</li>
+    <ul id = corLista> 
+      <li id="maça">Maçã</li>
+      <li id="banana">Banana</li>
+      <li id="goiaba">Goiaba</li>
     </ul>
   </body>
   </html>
