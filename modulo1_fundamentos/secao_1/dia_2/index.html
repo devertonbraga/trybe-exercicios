@@ -10,18 +10,33 @@
            }
         p { 
           font-weight: 600;
+          line-height: 3em;
         }   
         body {
           font-size: 16px;
         }
-        #corLista {background-color: blue;}
-        .corFundo { background-color: aqua;}
+        #corLista {
+          background-color: blue;
+          color: white;
+          font-style: italic;
+          line-height: 40px;
+          text-align: left;
+                    
+        }
+        .corFundo {
+          background-color: aqua;
+          font-style: italic;
+          line-height: 40px;
+          text-align: left;
+          text-decoration: underline;
+          color: red;
+        }
     </style>
   </head>
   <body>
     <h1>Frutas</h1>
     <p class="corFundo">Qual é a sua fruta favorita?</p>
-    <ul id = corLista; class="corFundo"> 
+    <ul id = corLista> 
       <li>Maçã</li>
       <li>Banana</li>
       <li>Goiaba</li>
